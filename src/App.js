@@ -5,10 +5,15 @@ import CalculatorOutput from './Components/CalculatorOutput'
 import CalculatorTittle from './Components/CalculatorTittle'
 
 export class App extends Component {
+  constructor(props)
+  {
+    super(props)
+    this.tittle='Calculator'
+  }
   render() {
     return (
       <Fragment>
-        <CalculatorTittle/>
+        <CalculatorTittle tittle={this.tittle}/>
         <CalculatorInput/>
         <CalculatorOutput/>
         <CalculatorButtons/>

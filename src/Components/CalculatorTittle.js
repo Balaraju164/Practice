@@ -4,7 +4,7 @@ export class CalculatorTittle extends Component {
     render() {
         return (
             <div>
-                Cal_tittle
+                {this.props.tittle}
             </div>
         )
     }
