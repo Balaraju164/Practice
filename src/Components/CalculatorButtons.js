@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 export class CalculatorButtons extends Component {
     render() {
         return (
-            <div>
-                Buttons
-            </div>
+                <input type='button' value ={this.props.label} onClick={this.props.onClick}/>
         )
     }
 }
