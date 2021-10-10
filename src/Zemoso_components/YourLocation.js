@@ -8,7 +8,7 @@ const YourLocation = () => {
             <div className='row'>
             <div className='row1'>
                 <div className='content'>
-                <CheckOutSteps step1 step2 step3 />
+                <CheckOutSteps step1   />
                 <h1>More than 2000 people are using Green Commute</h1>
                 </div>
             </div>
