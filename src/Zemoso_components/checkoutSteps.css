@@ -1,0 +1,40 @@
+.navbar {
+  padding: 0.5rem 1rem;
+  border-bottom: 0.2rem solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+}
+
+.navbar a:hover {
+  color: rgb(1, 211, 54);
+}
+
+.navbar a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: grey;
+}
+
+.navbar .number {
+  display: inline-block;
+  font-size: 1.4rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.navbar a:hover > .number {
+  background-color: rgb(1, 211, 54);
+  color: white;
+}
