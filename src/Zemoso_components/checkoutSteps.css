@@ -1,6 +1,6 @@
 .navbar {
   padding: 0.5rem 1rem;
-  border-bottom: 0.1rem solid gray;
+  border-bottom: 0.1rem solid rgb(182, 180, 180);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,8 +9,9 @@
 .navbar a {
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 1.4rem;
-  color: rgb(1, 211, 54);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: rgb(6, 184, 50);
 }
 
 .navbar a.disabled {
@@ -43,6 +44,6 @@
 }
 
 .navbar a > .number {
-  background-color: rgb(1, 211, 54);
+  background-color: rgb(6, 184, 50);
   color: white;
 }
