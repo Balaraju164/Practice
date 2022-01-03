@@ -5,6 +5,7 @@ import CalculatorOutput from './Components/CalculatorOutput'
 import CalculatorTittle from './Components/CalculatorTittle'
 import YourLocation from './Zemoso_components/YourLocation'
 
+console.log("Hello")
 export class App extends Component {
   render() {
     return (
