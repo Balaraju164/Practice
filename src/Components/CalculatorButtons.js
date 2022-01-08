@@ -4,7 +4,7 @@ export class CalculatorButtons extends Component {
     render() {
         return (
             <div>
-                Buttons
+                Buttons with high change
             </div>
         )
     }
