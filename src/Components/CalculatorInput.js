@@ -8,7 +8,7 @@ export class CalculatorInput extends Component {
                <input type='text' readOnly value={this.props.inputValue} className='textarea' placeholder='Enter values....'/>
 
             </div>
-            </div>
+        
         )
     }
 }
