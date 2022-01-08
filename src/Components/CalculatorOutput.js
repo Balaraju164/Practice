@@ -4,7 +4,7 @@ export class CalculatorOutput extends Component {
     render() {
         return (
             <div>
-                Cal_output
+            <input type='text' readOnly value={this.props.outputValue} className='textarea'/>
             </div>
         )
     }

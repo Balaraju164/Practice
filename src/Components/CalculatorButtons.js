@@ -3,11 +3,8 @@ import React, { Component } from 'react'
 export class CalculatorButtons extends Component {
     render() {
         return (
-            <div>
-                <div>
-                Buttons with high change
-            </div>
-            </div>
+                <input type='button' value ={this.props.label} onClick={this.props.onClick} className='button'/>
+
         )
     }
 }

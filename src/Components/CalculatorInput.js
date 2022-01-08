@@ -4,8 +4,9 @@ export class CalculatorInput extends Component {
     render() {
         return (
             <div>
-                <div>
-                Cal_input
+
+               <input type='text' readOnly value={this.props.inputValue} className='textarea' placeholder='Enter values....'/>
+
             </div>
             </div>
         )

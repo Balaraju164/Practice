@@ -1,0 +1,49 @@
+.navbar {
+  padding: 0.5rem 1rem;
+  border-bottom: 0.1rem solid rgb(182, 180, 180);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: rgb(6, 184, 50);
+}
+
+.navbar a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: grey;
+}
+
+.navbar .number {
+  display: inline-block;
+  font-size: 1.4rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.navbar .number1 {
+  display: inline-block;
+  font-size: 1.4rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 1rem;
+  background: rgb(206, 203, 203);
+}
+
+.navbar a > .number {
+  background-color: rgb(6, 184, 50);
+  color: white;
+}

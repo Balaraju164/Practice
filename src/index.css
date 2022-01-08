@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 80%;
+}
+
+.calculator {
+  height: 50rem;
+  width: 50rem;
+  margin: 0 auto;
+  margin-top: 7rem;
+  box-shadow: 2rem 3rem 2rem #e7e5e5;
+}
+
+.tittle {
+  background: linear-gradient(
+    318.68deg,
+    #6be476 0%,
+    #1ead42 49.72%,
+    #16f00b 100%
+  );
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textarea {
+  width: 49.6rem;
+  height: 3.5rem;
+  border: none;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 10rem;
+  background: linear-gradient(
+    318.68deg,
+    #6be476 0%,
+    #1ead42 49.72%,
+    #16f00b 100%
+  );
+  color: white;
+}
+
+::placeholder {
+  opacity: 0.6;
+  font-size: 2rem;
+}

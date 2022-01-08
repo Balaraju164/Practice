@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export class CalculatorTittle extends Component {
     render() {
         return (
-            <div>
-                Cal_tittle
+            <div className='tittle'>
+                {this.props.tittle}
             </div>
         )
     }
