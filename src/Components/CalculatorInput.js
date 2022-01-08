@@ -4,7 +4,9 @@ export class CalculatorInput extends Component {
     render() {
         return (
             <div>
-                Cal_input with clickable
+                <div>
+                Cal_input
+            </div>
             </div>
         )
     }
