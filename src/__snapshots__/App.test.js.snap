@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getsnapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="row1"
+      >
+        <div
+          class="content"
+        >
+          <nav
+            class="navbar"
+          >
+            <a
+              href="#"
+            >
+              <p
+                class="number"
+              >
+                1
+              </p>
+              Your location
+            </a>
+            <a
+              href="#"
+            >
+              <p
+                class="number"
+              >
+                2
+              </p>
+              Job Location
+            </a>
+            <a
+              class="disabled"
+              href="#"
+            >
+              <p
+                class="number1"
+              >
+                3
+              </p>
+              Your skills
+            </a>
+          </nav>
+          <div
+            class="data_content"
+          >
+            <h3>
+              More than 2000 people are using Green Commute
+            </h3>
+            <button
+              class="back_button"
+              type="button"
+            >
+              <i
+                class="fas fa-arrow-left"
+              />
+              back
+            </button>
+            <p>
+              Where do you want to work?
+            </p>
+            <input
+              placeholder="enter you job location"
+              type="text"
+            />
+            <div
+              class="buttons"
+            >
+              <button
+                class="butto"
+                type="button"
+              >
+                Next
+              </button>
+              <button
+                class="butto"
+                type="button"
+              >
+                Skip
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row2"
+      >
+        <img
+          alt="location_image"
+          src="/images/zemoso_image2.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

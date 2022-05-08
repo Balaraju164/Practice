@@ -1,15 +1,17 @@
-import React, { Component, Fragment } from 'react'
-import YourLocation from './Zemoso_components/YourLocation'
+import React, { Component, Fragment } from 'react';
+// import YourLocation from './Zemoso_components/YourLocation'
+// import Slick from './Components/Slick/slick'
+//import Jest from './Components/Jest_examples';
+import Form from './Components/FormProject/Form';
 
-console.log("Hello")
 export class App extends Component {
   render() {
     return (
       <Fragment>
-        <YourLocation/>
+        <Form />
       </Fragment>
-    )
+    );
   }
 }
 
-export default App
+export default App;

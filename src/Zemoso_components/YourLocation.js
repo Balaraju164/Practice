@@ -11,7 +11,7 @@ const YourLocation = () => {
                 <CheckOutSteps step1 step2 />
                 <div className='data_content'>
                 <h3>More than 2000 people are using Green Commute</h3>
-                <button type='button' className='back_button'><i class="fas fa-arrow-left"></i>back</button>
+                <button type='button' className='back_button'><i className="fas fa-arrow-left"></i>back</button>
                 <p>Where do you want to work?</p>
                 <input type='text' placeholder='enter you job location'/>
                 <div className='buttons'>

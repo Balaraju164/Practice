@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+:root {
+  --blue: rgb(164, 157, 244);
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -73,3 +77,277 @@ html {
   opacity: 0.6;
   font-size: 2rem;
 }
+
+.App {
+  font-family: sans-serif;
+}
+.scrollspy {
+  background-color: #515151;
+  margin: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px;
+  padding: 10px 0;
+}
+a {
+  color: white;
+}
+.isCurrent {
+  font-weight: bold;
+}
+
+.isCurrent a,
+h2 {
+  color: #f1a07a;
+}
+
+.horizonat-component {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.horizontal-dates {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.vertical-component {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  width: 100%;
+  height: 40vh;
+  overflow: scroll;
+}
+.vertical-dates {
+  margin: 1rem;
+}
+
+.iscurrent {
+  color: rgb(179, 7, 7);
+}
+
+.content {
+  font-size: 1.5rem;
+  margin: 5rem;
+}
+
+.content button {
+  width: 5vw;
+  height: 5vh;
+  margin: 1rem;
+  background: #e7e5e5;
+  color: black;
+}
+
+/* Form Css */
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 400px;
+  border: 3px solid rgb(214, 214, 214);
+  box-shadow: -5px 20px 10px rgb(214, 214, 214);
+  transition: all 0.3s ease-in-out;
+}
+
+.form:hover {
+  box-shadow: 5px 20px 10px rgb(214, 214, 214);
+}
+
+.title {
+  color: var(--blue);
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: var(--blue);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+}
+
+.input_data {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.label {
+  color: var(--blue);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.9;
+}
+
+.text_input {
+  border-radius: 12px;
+  border: 1px solid var(--blue);
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 50px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.btn {
+  background-color: rgb(101, 70, 243);
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: var(--blue);
+}
+
+.dataContaier {
+  margin: 5rem 0;
+}
+
+.dataTittle {
+  color: rgb(118, 118, 248);
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.dataSubTittle {
+  color: rgb(118, 118, 248);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dataHeaders,
+.data {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 0 3rem;
+}
+
+.dataLabel {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 50px;
+  margin: 0.5rem 0.2rem;
+  background: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data .dataLabel {
+  background: none;
+}
+
+.editButton {
+  background-color: var(--blue);
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 18px;
+  height: 45px;
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: auto;
+  }
+
+  .dataLabel {
+    font-size: 12px;
+    font-weight: 600;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .dataHeaders .dataLabel {
+    padding: 0 0.4rem;
+  }
+
+  .tittle,
+  .dataTittle {
+    font-size: 30px;
+  }
+
+  .subtittle,
+  .dataSubTittle {
+    font-size: 14px;
+  }
+
+  .data .dataLabel {
+    padding: 0 0.7rem;
+  }
+
+  .editButton {
+    font-size: 10px;
+    height: 35px;
+    width: 100%;
+  }
+}
+
+/* .form {
+  border: 1px solid;
+  padding: 1rem;
+  position: relative;
+  top: 50px;
+}
+.label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.text_input {
+  margin: 0.7rem;
+  height: 20px;
+  width: 100%;
+} */
